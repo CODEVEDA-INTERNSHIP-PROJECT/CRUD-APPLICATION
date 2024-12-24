@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/posts';
+const API_URL = 'https://crud-application-kqa7.onrender.com/api/posts';
 
 export const getAllPosts = () => axios.get(API_URL);
 export const createPost = (post) => axios.post(API_URL, post);
